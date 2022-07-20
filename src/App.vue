@@ -1,36 +1,41 @@
-<template>
-	<the-header-vue />
-	<router-view />
-</template>
+<template lang="">
+    <div class="super_container">
 
+        <!-- Header -->
+
+        <TheHeader />
+        <!-- Menu -->
+
+        <TheMenu />
+        <!-- Page Content -->
+
+        <router-view v-slot="{ Component }">
+            <keep-alive>
+                <component :is="Component" />
+            </keep-alive>
+        </router-view>
+        
+        <!-- Footer -->
+
+        <TheFooter />
+
+    </div>
+</template>
 <script lang="ts">
-import TheHeaderVue from "./components/TheHeader.vue"
+import TheHeader from "@/components/TheHeader.vue"
+import TheFooter from "@/components/TheFooter.vue"
+import TheMenu from "@/components/TheMenu.vue"
+
 export default {
-	components: {
-		TheHeaderVue
-	}
+    name: 'MasterPage',
+    components: {
+        TheHeader,
+        TheFooter,
+        TheMenu
+    },
+    methods: {
+    }
 }
 </script>
-
 <style>
-#app {
-	font-family: Avenir, Helvetica, Arial, sans-serif;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	text-align: center;
-	color: #2c3e50;
-}
-
-nav {
-	padding: 30px;
-}
-
-nav a {
-	font-weight: bold;
-	color: #2c3e50;
-}
-
-nav a.router-link-exact-active {
-	color: #42b983;
-}
 </style>

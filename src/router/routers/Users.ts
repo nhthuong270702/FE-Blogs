@@ -1,4 +1,3 @@
-import TestPageVue from "@/pages/TestPage.vue";
 import UserEditVue from "@/pages/users/UserEdit.vue";
 import UserDetailVue from "@/pages/users/UserDetail.vue";
 import UserListVue from "@/pages/users/UserList.vue";
@@ -6,11 +5,6 @@ import UserCreateVue from "@/pages/users/UserCreate.vue";
 import { apiUsers } from "../../utils/apiurls";
 
 const UserRouter = [
-  {
-    path: "/test",
-    name: "Test",
-    component: TestPageVue,
-  },
   {
     path: apiUsers,
     name: "UserList",

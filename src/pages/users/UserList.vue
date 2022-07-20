@@ -46,13 +46,4 @@ export default {
   },
 };
 </script>
-<style>
-ul {
-  list-style: none;
-}
 
-.btn a {
-  color: white;
-  text-decoration: none;
-}
-</style>
