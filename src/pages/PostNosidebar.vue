@@ -1,21 +1,25 @@
 <template lang="">
     <!-- Header -->
 
-    	<div class="home">
-		<div class="home_background parallax-window" data-parallax="scroll" data-image-src="images/post_nosidebar.jpg" data-speed="0.8"></div>
-		<div class="home_content">
-			<div class="post_category trans_200"><a href="category.html" class="trans_200">sport</a></div>
-			<div class="post_title">How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in Physics?</div>
-			<div class="post_author d-flex flex-row align-items-center justify-content-center">
-				<div class="author_image"><div><img src="images/author.jpg" alt=""></div></div>
-				<div class="post_meta"><a href="#">Katy Liu</a><span>Sep 29, 2017 at 9:48 am</span></div>
-			</div>
-		</div>
-	</div>
+    <div class="home_post_no_sidebar">
+        <div class="home_background parallax-window" data-parallax="scroll" data-speed="0.8" style="background-image: url('../assets/images/post_nosidebar.jpg'); background-size: cover; background-position: center center;">
+        </div>
+        <div class="home_content">
+            <div class="post_category trans_200"><a href="category.html" class="trans_200">sport</a></div>
+            <div class="post_title">How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in
+                Physics?</div>
+            <div class="post_author d-flex flex-row align-items-center justify-content-center">
+                <div class="author_image">
+                    <div><img src="../assets/images/author.jpg" alt=""></div>
+                </div>
+                <div class="post_meta"><a href="#">Katy Liu</a><span>Sep 29, 2017 at 9:48 am</span></div>
+            </div>
+        </div>
+    </div>
 
     <!-- Content -->
 
-        <div class="page_content">
+    <div class="page_content">
         <div class="container">
             <div class="row">
 
@@ -35,7 +39,7 @@
                                 egestas pretium et quis sapien. Etiam faucibus magna eu porta vulputate. Aliquam euismod
                                 rhoncus malesuada. Nunc rutrum hendrerit semper.</p>
                             <figure>
-                                <img src="/assets/images/post_body.jpg" alt="">
+                                <img src="../assets/images/post_body.jpg" alt="">
                                 <figcaption>Lorem Ipsum Dolor Sit Amet</figcaption>
                             </figure>
                             <p class="post_p">Maecenas vitae sem varius, imperdiet nisi a, tristique nisi. Sed
@@ -99,7 +103,7 @@
 
                             <!-- Small Card With Image -->
                             <div class="card card_small_with_image grid-item">
-                                <img class="card-img-top" src="/assets/images/post_2.jpg"
+                                <img class="card-img-top" src="../assets/images/post_2.jpg"
                                     alt="https://unsplash.com/@jakobowens1">
                                 <div class="card-body">
                                     <div class="card-title card-title-small"><a href="post.html">How Did van Gogh’s
@@ -111,7 +115,7 @@
 
                             <!-- Small Card With Image -->
                             <div class="card card_small_with_image grid-item">
-                                <img class="card-img-top" src="/assets/images/post_13.jpg"
+                                <img class="card-img-top" src="../assets/images/post_13.jpg"
                                     alt="https://unsplash.com/@jakobowens1">
                                 <div class="card-body">
                                     <div class="card-title card-title-small"><a href="post.html">How Did van Gogh’s
@@ -123,7 +127,7 @@
 
                             <!-- Small Card With Image -->
                             <div class="card card_small_with_image grid-item">
-                                <img class="card-img-top" src="/assets/images/post_26.jpg"
+                                <img class="card-img-top" src="../assets/images/post_26.jpg"
                                     alt="https://unsplash.com/@jakobowens1">
                                 <div class="card-body">
                                     <div class="card-title card-title-small"><a href="post.html">How Did van Gogh’s
@@ -135,7 +139,7 @@
 
                             <!-- Small Card With Image -->
                             <div class="card card_small_with_image grid-item">
-                                <img class="card-img-top" src="/assets/images/post_27.jpg"
+                                <img class="card-img-top" src="../assets/images/post_27.jpg"
                                     alt="https://unsplash.com/@jakobowens1">
                                 <div class="card-body">
                                     <div class="card-title card-title-small"><a href="post.html">How Did van Gogh’s
@@ -180,7 +184,7 @@
                                         <div
                                             class="comment_panel d-flex flex-row align-items-center justify-content-start">
                                             <div class="comment_author_image">
-                                                <div><img src="/assets/images/comment_author_1.jpg" alt=""></div>
+                                                <div><img src="../assets/images/comment_author_1.jpg" alt=""></div>
                                             </div>
                                             <small class="post_meta"><a href="#">Katy Liu</a><span>Sep 29, 2017 at 9:48
                                                     am</span></small>
@@ -200,7 +204,8 @@
                                                 <div
                                                     class="comment_panel d-flex flex-row align-items-center justify-content-start">
                                                     <div class="comment_author_image">
-                                                        <div><img src="/assets/images/comment_author_2.jpg" alt=""></div>
+                                                        <div><img src="../assets/images/comment_author_2.jpg" alt="">
+                                                        </div>
                                                     </div>
                                                     <small class="post_meta"><a href="#">Katy Liu</a><span>Sep 29, 2017
                                                             at
@@ -228,7 +233,7 @@
                                         <div
                                             class="comment_panel d-flex flex-row align-items-center justify-content-start">
                                             <div class="comment_author_image">
-                                                <div><img src="/assets/images/comment_author_1.jpg" alt=""></div>
+                                                <div><img src="../assets/images/comment_author_1.jpg" alt=""></div>
                                             </div>
                                             <small class="post_meta"><a href="#">Katy Liu</a><span>Sep 29, 2017 at 9:48
                                                     am</span></small>
@@ -255,7 +260,15 @@
 
 </template>
 <script lang="ts">
+import '../../public/assets/js/post_nosidebar'
+import '../../public/assets/plugins/parallax-js-master/parallax.min.js'
+
 export default {
     name: 'PostNosidebar_Page',
 }
 </script>
+
+<style scoped>
+@import '../../public/assets/styles/post_nosidebar.css';
+@import '../../public/assets/styles/post_nosidebar_responsive.css';
+</style>

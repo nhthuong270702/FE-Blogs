@@ -2,13 +2,14 @@
 
     <!-- Header -->
 
-    	<div class="home">
-		<div class="home_background parallax-window" data-parallax="scroll" data-image-src="" data-speed="0.8"></div>
-	</div>
+    <div class="home_regular">
+        <div class="home_background parallax-window" style="background-image: url('../assets/images/regular.jpg'); background-size: cover; background-position: center center;">
+        </div>
+    </div>
 
     <!-- Content -->
 
-        <div class="page_content">
+    <div class="page_content">
         <div class="container">
             <div class="row">
 
@@ -54,8 +55,17 @@
 
 
 </template>
+
 <script lang="ts">
+import '../../public/assets/js/regular'
+import '../../public/assets/plugins/parallax-js-master/parallax.min.js'
+
 export default {
     name: 'RegularPage',
 }
 </script>
+
+<style scoped>
+@import '../../public/assets/styles/regular.css';
+@import '../../public/assets/styles/regular_responsive.css';
+</style>

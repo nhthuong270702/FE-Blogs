@@ -317,7 +317,7 @@ section
 	transition: all 200ms ease;
 }
 .main_nav ul li a:hover,
-.main_nav ul li.active a
+.main_nav ul li .active
 {
 	color: rgba(255,255,255,1);
 }

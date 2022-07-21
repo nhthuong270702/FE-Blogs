@@ -7,8 +7,8 @@ import { createRouter, createWebHistory } from "vue-router";
 // import RegularPage from "../pages/Regular.vue";
 import UsersRouter from "./routers/Users";
 
-function lazyLoad(view){
-  return() => import(`@/pages/${view}.vue`)
+function lazyLoad(view: string){
+  return() => import(`../pages/${view}.vue`)
 }
 
 const router = createRouter({

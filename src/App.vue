@@ -14,6 +14,7 @@
                 <component :is="Component" />
             </keep-alive>
         </router-view>
+
         
         <!-- Footer -->
 
@@ -26,14 +27,13 @@ import TheHeader from "@/components/TheHeader.vue"
 import TheFooter from "@/components/TheFooter.vue"
 import TheMenu from "@/components/TheMenu.vue"
 
+
 export default {
     name: 'MasterPage',
     components: {
         TheHeader,
         TheFooter,
         TheMenu
-    },
-    methods: {
     }
 }
 </script>

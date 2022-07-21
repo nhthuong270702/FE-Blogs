@@ -11,7 +11,7 @@
             <form action="#">
                 <input type="search" class="header_search_input menu_mm" required="required"
                     placeholder="Type to Search.">
-                <img class="header_search_icon menu_mm" src="/assets/images/search_2.png" alt="">
+                <img class="header_search_icon menu_mm" src="../assets/images/search_2.png" alt="">
             </form>
         </div>
         <nav class="menu_nav">

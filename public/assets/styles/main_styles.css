@@ -310,7 +310,7 @@ section
 	transition: all 200ms ease;
 }
 .main_nav ul li a:hover,
-.main_nav ul li.active a
+.main_nav ul li .active
 {
 	color: rgba(255,255,255,1);
 }
@@ -813,6 +813,7 @@ section
 	display: inline-block;
 	padding: 2px;
 	cursor: pointer;
+	margin-left: 3px;
 }
 .custom_dot span
 {
@@ -820,6 +821,7 @@ section
 	width: 4px;
 	height: 4px;
 	border-radius: 50%;
+	margin-right: 3px;
 	background: rgba(255,255,255,0.35);
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
@@ -938,7 +940,7 @@ section
 	letter-spacing: 0.025em;
 }
 .section_tags ul li:hover,
-.section_tags ul li.active
+.section_tags ul li .active
 {
 	background: #FFFFFF;
 }

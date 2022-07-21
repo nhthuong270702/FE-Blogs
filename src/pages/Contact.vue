@@ -1,8 +1,10 @@
 <template lang="">
     <div class="home_contact">
-        <div class="home_background parallax-window" data-parallax="scroll" data-image-src="../assets/images/regular.jpg"
-            data-speed="0.8"></div>
-        <div class="home_content">
+        <div class="home_background parallax-window" data-parallax="scroll" data-speed="0.8"
+            style="background-image: url('../assets/images/regular.jpg'); background-size: cover; background-position: center center;">
+        </div>
+
+        <div class="home_content_contact">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 offset-lg-3">
@@ -27,15 +29,15 @@
     </div>
 </template>
 <script lang="ts">
+    import '../../public/assets/plugins/parallax-js-master/parallax.min.js'
+    import '../../public/assets/js/contact.js'
 
-import '../../public/assets/plugins/parallax-js-master/parallax.min.js'
-import '../../public/assets/js/contact.js'
-
-export default {
-    name: "ContactPage"
-}
+    export default {
+        name: "ContactPage"
+    }
 </script>
 <style scoped>
-@import '../../public/assets/styles/contact.css';
-@import '../../public/assets/styles/contact_responsive.css';
+    /* @import '../../public/assets/plugins/jquery.mb.YTPlayer-3.1.12/jquery.mb.YTPlayer.css'; */
+    @import '../../public/assets/styles/contact.css';
+    @import '../../public/assets/styles/contact_responsive.css';
 </style>

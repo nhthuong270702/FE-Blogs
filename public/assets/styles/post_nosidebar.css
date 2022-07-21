@@ -316,7 +316,7 @@ section
 	transition: all 200ms ease;
 }
 .main_nav ul li a:hover,
-.main_nav ul li.active a
+.main_nav ul li .active
 {
 	color: rgba(255,255,255,1);
 }
@@ -587,7 +587,7 @@ section
 5. Home
 *********************************/
 
-.home
+.home_post_no_sidebar
 {
 	width: 100%;
 	height: 560px;

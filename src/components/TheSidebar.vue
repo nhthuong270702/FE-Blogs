@@ -81,7 +81,7 @@
                                         <div
                                             class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
                                             <div class="side_post_image">
-                                                <div><img src="../assets/images/comment_author_1.jpg" alt=""></div>
+                                                <div><img src="../assets/images/top_3.jpg" alt=""></div>
                                             </div>
                                             <div class="side_post_content">
                                                 <div class="side_post_title">How Did van Gogh’s Turbulent Mind</div>
