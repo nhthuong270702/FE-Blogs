@@ -2,7 +2,9 @@
     <!-- Header -->
 
     <div class="home_post">
-        <div class="home_background parallax-window" data-parallax="scroll" data-speed="0.8" style="background-image: url('../assets/images/post.jpg'); background-size: cover; background-position: center center;"></div>
+        <div class="home_background parallax-window" data-parallax="scroll" data-speed="0.8"
+            style="background-image: url('../assets/images/post.jpg'); background-size: cover; background-position: center center;">
+        </div>
         <div class="home_content_post">
             <div class="post_category trans_200"><a href="category.html" class="trans_200">sport</a></div>
             <div class="post_title">How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in
@@ -280,22 +282,21 @@
             </div>
         </div>
     </div>
-
 </template>
 <script lang="ts">
-import '../../public/assets/js/post.js'
+    import '../../public/assets/js/post.js'
 
-import TheSidebar from "@/components/TheSidebar.vue"
+    import TheSidebar from "@/components/TheSidebar.vue"
 
-export default {
-    name: 'Post_Page',
-    components: {
-        TheSidebar
+    export default {
+        name: 'Post_Page',
+        components: {
+            TheSidebar
+        }
     }
-}
 </script>
 <style scoped>
-/* @import '../../public/assets/plugins/jquery.mb.YTPlayer-3.1.12/jquery.mb.YTPlayer.css'; */
-@import '../../public/assets/styles/post.css';
-@import '../../public/assets/styles/post_responsive.css';
+    /* @import '../../public/assets/plugins/jquery.mb.YTPlayer-3.1.12/jquery.mb.YTPlayer.css'; */
+    @import '../../public/assets/styles/post.css';
+    @import '../../public/assets/styles/post_responsive.css';
 </style>

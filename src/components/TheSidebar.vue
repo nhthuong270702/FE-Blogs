@@ -107,6 +107,7 @@
                                     </router-link>
                                 </div>
 
+
                             </div>
 
                             <!-- Top Stories Slider Item -->
@@ -256,7 +257,8 @@
 
             <div class="sidebar_section">
                 <div class="advertising">
-                    <div class="advertising_background" style="background-image:url(../assets/images/post_17.jpg)"></div>
+                    <div class="advertising_background" style="background-image:url(../assets/images/post_17.jpg)">
+                    </div>
                     <div class="advertising_content d-flex flex-column align-items-start justify-content-end">
                         <div class="advertising_perc">-15%</div>
                         <div class="advertising_link"><a href="#">How Did van Gogh’s Turbulent Mind</a></div>
@@ -517,7 +519,8 @@
 
             <div class="sidebar_section">
                 <div class="advertising_2">
-                    <div class="advertising_background" style="background-image:url(../assets/images/post_18.jpg)"></div>
+                    <div class="advertising_background" style="background-image:url(../assets/images/post_18.jpg)">
+                    </div>
                     <div class="advertising_2_content d-flex flex-column align-items-center justify-content-center">
                         <div class="advertising_2_link"><a href="#">Turbulent <span>Mind</span></a></div>
                     </div>
@@ -801,7 +804,12 @@
     </div>
 </template>
 <script lang="ts">
-export default {
-    name: "TheSidebar"
-}
+
+    export default {
+        name: "TheSidebar",
+        data() {
+            return {
+            };
+        },
+    }
 </script>

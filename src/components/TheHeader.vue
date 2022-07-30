@@ -18,7 +18,9 @@
                 <li>
                   <router-link @click="scrollToTop()" :to="{name: 'post_nosidebar'}">Post NoSidebar</router-link>
                 </li>
-                <li><a href="#">Lifestyle</a></li>
+                 <li>
+                  <router-link @click="scrollToTop()" :to="{name: 'PostList'}">Post List</router-link>
+                </li>
                 <li><a href="#">Video</a></li>
                 <li>
                   <router-link @click="scrollToTop()" :to="{name: 'contact'}">Contact</router-link>

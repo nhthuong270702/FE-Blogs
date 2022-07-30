@@ -6,6 +6,9 @@ import { createRouter, createWebHistory } from "vue-router";
 // import PostNosidebarPage from "../pages/PostNosidebar.vue";
 // import RegularPage from "../pages/Regular.vue";
 import UsersRouter from "./routers/Users";
+import PostsRouter from "./routers/Posts";
+import AuthRouter from "./routers/Auth";
+import NotFoundRouter from "./routers/NotFound";
 
 function lazyLoad(view: string){
   return() => import(`../pages/${view}.vue`)
@@ -44,7 +47,10 @@ const router = createRouter({
       name: "regular",
       component: lazyLoad('Regular'),
     },
+    ...NotFoundRouter,
     ...UsersRouter,
+    ...PostsRouter,
+    ...AuthRouter,
   ],
 });
 

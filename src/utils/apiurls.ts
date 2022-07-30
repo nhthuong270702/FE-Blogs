@@ -2,4 +2,10 @@
 export const apiUsers = "/users";
 
 // blogs
-export const apiBlogs = "/blogs";
+export const apiPosts = "/posts";
+
+// auth
+export const apiAuth = "/auth";
+
+// user
+export const apiUser = "/user";

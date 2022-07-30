@@ -293,24 +293,19 @@
                                 <div class="section_tags ml-auto">
                                     <ul>
                                         <li class="active">
-                                            <router-link @click="scrollToTop()" :to="{name: 'catelogy'}"> all
-                                            </router-link>
+                                            <router-link :to="{name: 'catelogy'}"> all</router-link>
                                         </li>
                                         <li>
-                                            <router-link @click="scrollToTop()" :to="{name: 'catelogy'}"> style hunter
-                                            </router-link>
+                                            <router-link :to="{name: 'catelogy'}"> style hunter</router-link>
                                         </li>
                                         <li>
-                                            <router-link @click="scrollToTop()" :to="{name: 'catelogy'}"> vogue
-                                            </router-link>
+                                            <router-link :to="{name: 'catelogy'}"> vogue</router-link>
                                         </li>
                                         <li>
-                                            <router-link @click="scrollToTop()" :to="{name: 'catelogy'}"> health &
-                                                fitness</router-link>
+                                            <router-link :to="{name: 'catelogy'}"> health & fitness</router-link>
                                         </li>
                                         <li>
-                                            <router-link @click="scrollToTop()" :to="{name: 'catelogy'}"> travel
-                                            </router-link>
+                                            <router-link :to="{name: 'catelogy'}"> travel</router-link>
                                         </li>
                                     </ul>
                                 </div>
@@ -319,28 +314,22 @@
                                         <li>more
                                             <ul>
                                                 <li>
-                                                    <router-link @click="scrollToTop()" :to="{name: 'catelogy'}"> new
-                                                        look 2018</router-link>
+                                                    <router-link :to="{name: 'catelogy'}"> new look 2018</router-link>
                                                 </li>
                                                 <li>
-                                                    <router-link @click="scrollToTop()" :to="{name: 'catelogy'}"> street
-                                                        fashion</router-link>
+                                                    <router-link :to="{name: 'catelogy'}"> street fashion</router-link>
                                                 </li>
                                                 <li>
-                                                    <router-link @click="scrollToTop()" :to="{name: 'catelogy'}">
-                                                        business</router-link>
+                                                    <router-link :to="{name: 'catelogy'}"> business</router-link>
                                                 </li>
                                                 <li>
-                                                    <router-link @click="scrollToTop()" :to="{name: 'catelogy'}">
-                                                        recipes</router-link>
+                                                    <router-link :to="{name: 'catelogy'}"> recipes</router-link>
                                                 </li>
                                                 <li>
-                                                    <router-link @click="scrollToTop()" :to="{name: 'catelogy'}"> sport
-                                                    </router-link>
+                                                    <router-link :to="{name: 'catelogy'}"> sport</router-link>
                                                 </li>
                                                 <li>
-                                                    <router-link @click="scrollToTop()" :to="{name: 'catelogy'}">
-                                                        celebrities</router-link>
+                                                    <router-link :to="{name: 'catelogy'}"> celebrities</router-link>
                                                 </li>
                                             </ul>
                                         </li>
@@ -356,8 +345,8 @@
                                             alt="https://unsplash.com/@cjtagupa">
                                         <div class="card-body">
                                             <div class="card-title">
-                                                <router-link @click="scrollToTop()" :to="{name: 'post'}"> How Did van
-                                                    Gogh’s Turbulent
+                                                <router-link @click.prevent="$scrollToTop" :to="{name: 'post'}"> How Did
+                                                    van Gogh’s Turbulent
                                                     Mind Depict One of the Most Complex Concepts in Physics?
                                                 </router-link>
                                             </div>
@@ -373,7 +362,8 @@
                                     <div class="card card_default card_small_no_image grid-item">
                                         <div class="card-body">
                                             <div class="card-title card-title-small">
-                                                <router-link @click="scrollToTop()" :to="{name: 'post'}"> How Did van
+                                                <router-link @click.prevent="$scrollToTop" :to="{name: 'post'}"> How Did
+                                                    van
                                                     Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in
                                                     Physics?</router-link>
                                             </div>
@@ -388,7 +378,8 @@
                                             style="background-image:url(../assets/images/post_4.jpg)"></div>
                                         <div class="card-body">
                                             <div class="card-title card-title-small">
-                                                <router-link @click="scrollToTop()" :to="{name: 'post'}"> How Did van
+                                                <router-link @click.prevent="$scrollToTop" :to="{name: 'post'}"> How Did
+                                                    van
                                                     Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in
                                                     Physics?</router-link>
                                             </div>
@@ -403,7 +394,8 @@
                                             alt="https://unsplash.com/@jakobowens1">
                                         <div class="card-body">
                                             <div class="card-title card-title-small">
-                                                <router-link @click="scrollToTop()" :to="{name: 'post'}"> How Did van
+                                                <router-link @click.prevent="$scrollToTop" :to="{name: 'post'}"> How Did
+                                                    van
                                                     Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in
                                                     Physics?</router-link>
                                             </div>
@@ -418,7 +410,8 @@
                                             alt="https://unsplash.com/@jannerboy62">
                                         <div class="card-body">
                                             <div class="card-title card-title-small">
-                                                <router-link @click="scrollToTop()" :to="{name: 'post'}"> How Did van
+                                                <router-link @click.prevent="$scrollToTop" :to="{name: 'post'}"> How Did
+                                                    van
                                                     Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in
                                                     Physics?</router-link>
                                             </div>
@@ -432,7 +425,8 @@
                                     <div class="card card_default card_default_no_image grid-item">
                                         <div class="card-body">
                                             <div class="card-title card-title-small">
-                                                <router-link @click="scrollToTop()" :to="{name: 'post'}"> How Did van
+                                                <router-link @click.prevent="$scrollToTop" :to="{name: 'post'}"> How Did
+                                                    van
                                                     Gogh’s Turbulent Mind Depict One of the Most</router-link>
                                             </div>
                                         </div>
@@ -443,7 +437,8 @@
                                     <div class="card card_default card_default_no_image grid-item">
                                         <div class="card-body">
                                             <div class="card-title card-title-small">
-                                                <router-link @click="scrollToTop()" :to="{name: 'post'}"> How Did van
+                                                <router-link @click.prevent="$scrollToTop" :to="{name: 'post'}"> How Did
+                                                    van
                                                     Gogh’s Turbulent Mind Depict One of the Most</router-link>
                                             </div>
                                         </div>
@@ -454,7 +449,8 @@
                                     <div class="card card_default card_default_no_image grid-item">
                                         <div class="card-body">
                                             <div class="card-title card-title-small">
-                                                <router-link @click="scrollToTop()" :to="{name: 'post'}"> How Did van
+                                                <router-link @click.prevent="$scrollToTop" :to="{name: 'post'}"> How Did
+                                                    van
                                                     Gogh’s Turbulent Mind Depict One of the Most</router-link>
                                             </div>
                                         </div>
@@ -472,24 +468,19 @@
                                 <div class="section_tags ml-auto">
                                     <ul>
                                         <li class="active">
-                                            <router-link @click="scrollToTop()" :to="{name: 'catelogy'}"> all
-                                            </router-link>
+                                            <router-link :to="{name: 'catelogy'}"> all</router-link>
                                         </li>
                                         <li>
-                                            <router-link @click="scrollToTop()" :to="{name: 'catelogy'}"> style hunter
-                                            </router-link>
+                                            <router-link :to="{name: 'catelogy'}"> style hunter</router-link>
                                         </li>
                                         <li>
-                                            <router-link @click="scrollToTop()" :to="{name: 'catelogy'}"> vogue
-                                            </router-link>
+                                            <router-link :to="{name: 'catelogy'}"> vogue</router-link>
                                         </li>
                                         <li>
-                                            <router-link @click="scrollToTop()" :to="{name: 'catelogy'}"> health &
-                                                fitness</router-link>
+                                            <router-link :to="{name: 'catelogy'}"> health & fitness</router-link>
                                         </li>
                                         <li>
-                                            <router-link @click="scrollToTop()" :to="{name: 'catelogy'}"> travel
-                                            </router-link>
+                                            <router-link :to="{name: 'catelogy'}"> travel</router-link>
                                         </li>
                                     </ul>
                                 </div>
@@ -498,28 +489,22 @@
                                         <li>more
                                             <ul>
                                                 <li>
-                                                    <router-link @click="scrollToTop()" :to="{name: 'catelogy'}"> new
-                                                        look 2018</router-link>
+                                                    <router-link :to="{name: 'catelogy'}"> new look 2018</router-link>
                                                 </li>
                                                 <li>
-                                                    <router-link @click="scrollToTop()" :to="{name: 'catelogy'}"> street
-                                                        fashion</router-link>
+                                                    <router-link :to="{name: 'catelogy'}"> street fashion</router-link>
                                                 </li>
                                                 <li>
-                                                    <router-link @click="scrollToTop()" :to="{name: 'catelogy'}">
-                                                        business</router-link>
+                                                    <router-link :to="{name: 'catelogy'}"> business</router-link>
                                                 </li>
                                                 <li>
-                                                    <router-link @click="scrollToTop()" :to="{name: 'catelogy'}">
-                                                        recipes</router-link>
+                                                    <router-link :to="{name: 'catelogy'}"> recipes</router-link>
                                                 </li>
                                                 <li>
-                                                    <router-link @click="scrollToTop()" :to="{name: 'catelogy'}"> sport
-                                                    </router-link>
+                                                    <router-link :to="{name: 'catelogy'}"> sport</router-link>
                                                 </li>
                                                 <li>
-                                                    <router-link @click="scrollToTop()" :to="{name: 'catelogy'}">
-                                                        celebrities</router-link>
+                                                    <router-link :to="{name: 'catelogy'}"> celebrities</router-link>
                                                 </li>
                                             </ul>
                                         </li>
@@ -535,8 +520,8 @@
                                             style="background-image:url(../assets/images/post_8.jpg)"></div>
                                         <div class="card-body">
                                             <div class="card-title">
-                                                <router-link @click="scrollToTop()" :to="{name: 'post'}"> How Did van
-                                                    Gogh’s Turbulent
+                                                <router-link @click.prevent="$scrollToTop" :to="{name: 'post'}"> How Did
+                                                    van Gogh’s Turbulent
                                                     Mind Depict One of the Most Complex Concepts in Physics?
                                                 </router-link>
                                             </div>
@@ -550,8 +535,8 @@
                                         <img class="card-img-top" src="../assets/images/post_9.jpg" alt="">
                                         <div class="card-body">
                                             <div class="card-title">
-                                                <router-link @click="scrollToTop()" :to="{name: 'post'}"> How Did van
-                                                    Gogh’s Turbulent
+                                                <router-link @click.prevent="$scrollToTop" :to="{name: 'post'}"> How Did
+                                                    van Gogh’s Turbulent
                                                     Mind Depict One of the Most Complex Concepts in Physics?
                                                 </router-link>
                                             </div>
@@ -568,7 +553,8 @@
                                         <img class="card-img-top" src="../assets/images/post_5.jpg" alt="">
                                         <div class="card-body">
                                             <div class="card-title card-title-small">
-                                                <router-link @click="scrollToTop()" :to="{name: 'post'}"> How Did van
+                                                <router-link @click.prevent="$scrollToTop" :to="{name: 'post'}"> How Did
+                                                    van
                                                     Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in
                                                     Physics?</router-link>
                                             </div>
@@ -584,7 +570,8 @@
                                             style="background-image:url(../assets/images/post_6.jpg)"></div>
                                         <div class="card-body">
                                             <div class="card-title card-title-small">
-                                                <router-link @click="scrollToTop()" :to="{name: 'post'}"> How Did van
+                                                <router-link @click.prevent="$scrollToTop" :to="{name: 'post'}"> How Did
+                                                    van
                                                     Gogh’s Turbulent Mind Depict One of the Most</router-link>
                                             </div>
                                         </div>
@@ -594,7 +581,8 @@
                                     <div class="card card_default card_default_no_image grid-item">
                                         <div class="card-body">
                                             <div class="card-title card-title-small">
-                                                <router-link @click="scrollToTop()" :to="{name: 'post'}"> How Did van
+                                                <router-link @click.prevent="$scrollToTop" :to="{name: 'post'}"> How Did
+                                                    van
                                                     Gogh’s Turbulent Mind Depict One of the Most</router-link>
                                             </div>
                                         </div>
@@ -604,7 +592,8 @@
                                     <div class="card card_default card_default_no_image grid-item">
                                         <div class="card-body">
                                             <div class="card-title card-title-small">
-                                                <router-link @click="scrollToTop()" :to="{name: 'post'}"> How Did van
+                                                <router-link @click.prevent="$scrollToTop" :to="{name: 'post'}"> How Did
+                                                    van
                                                     Gogh’s Turbulent Mind Depict One of the Most</router-link>
                                             </div>
                                         </div>
@@ -617,7 +606,8 @@
                                             style="background-image:url(../assets/images/post_7.jpg)"></div>
                                         <div class="card-body">
                                             <div class="card-title card-title-small">
-                                                <router-link @click="scrollToTop()" :to="{name: 'post'}"> How Did van
+                                                <router-link @click.prevent="$scrollToTop" :to="{name: 'post'}"> How Did
+                                                    van
                                                     Gogh’s Turbulent Mind Depict One of the Most</router-link>
                                             </div>
                                         </div>
@@ -743,7 +733,8 @@
                                         <img class="card-img-top" src="../assets/images/post_10.jpg" alt="">
                                         <div class="card-body">
                                             <div class="card-title card-title-small">
-                                                <router-link @click="scrollToTop()" :to="{name: 'post'}"> How Did van
+                                                <router-link @click.prevent="$scrollToTop" :to="{name: 'post'}"> How Did
+                                                    van
                                                     Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in
                                                     Physics?</router-link>
                                             </div>
@@ -756,7 +747,8 @@
                                     <div class="card card_default card_small_no_image grid-item">
                                         <div class="card-body">
                                             <div class="card-title card-title-small">
-                                                <router-link @click="scrollToTop()" :to="{name: 'post'}"> How Did van
+                                                <router-link @click.prevent="$scrollToTop" :to="{name: 'post'}"> How Did
+                                                    van
                                                     Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in
                                                     Physics?</router-link>
                                             </div>
@@ -770,7 +762,8 @@
                                         <img class="card-img-top" src="../assets/images/post_15.jpg" alt="">
                                         <div class="card-body">
                                             <div class="card-title card-title-small">
-                                                <router-link @click="scrollToTop()" :to="{name: 'post'}"> How Did van
+                                                <router-link @click.prevent="$scrollToTop" :to="{name: 'post'}"> How Did
+                                                    van
                                                     Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in
                                                     Physics?</router-link>
                                             </div>
@@ -785,7 +778,8 @@
                                             alt="https://unsplash.com/@jakobowens1">
                                         <div class="card-body">
                                             <div class="card-title card-title-small">
-                                                <router-link @click="scrollToTop()" :to="{name: 'post'}"> How Did van
+                                                <router-link @click.prevent="$scrollToTop" :to="{name: 'post'}"> How Did
+                                                    van
                                                     Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in
                                                     Physics?</router-link>
                                             </div>
@@ -800,7 +794,8 @@
                                             style="background-image:url(../assets/images/post_11.jpg)"></div>
                                         <div class="card-body">
                                             <div class="card-title card-title-small">
-                                                <router-link @click="scrollToTop()" :to="{name: 'post'}"> How Did van
+                                                <router-link @click.prevent="$scrollToTop" :to="{name: 'post'}"> How Did
+                                                    van
                                                     Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in
                                                     Physics?</router-link>
                                             </div>
@@ -815,7 +810,8 @@
                                             style="background-image:url(../assets/images/post_16.jpg)"></div>
                                         <div class="card-body">
                                             <div class="card-title card-title-small">
-                                                <router-link @click="scrollToTop()" :to="{name: 'post'}"> How Did van
+                                                <router-link @click.prevent="$scrollToTop" :to="{name: 'post'}"> How Did
+                                                    van
                                                     Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in
                                                     Physics?</router-link>
                                             </div>
@@ -829,7 +825,8 @@
                                         <img class="card-img-top" src="../assets/images/post_14.jpg" alt="">
                                         <div class="card-body">
                                             <div class="card-title card-title-small">
-                                                <router-link @click="scrollToTop()" :to="{name: 'post'}"> How Did van
+                                                <router-link @click.prevent="$scrollToTop" :to="{name: 'post'}"> How Did
+                                                    van
                                                     Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in
                                                     Physics?</router-link>
                                             </div>
@@ -842,7 +839,8 @@
                                     <div class="card card_default card_small_no_image grid-item">
                                         <div class="card-body">
                                             <div class="card-title card-title-small">
-                                                <router-link @click="scrollToTop()" :to="{name: 'post'}"> How Did van
+                                                <router-link @click.prevent="$scrollToTop" :to="{name: 'post'}"> How Did
+                                                    van
                                                     Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in
                                                     Physics?</router-link>
                                             </div>
@@ -855,7 +853,8 @@
                                     <div class="card card_default card_small_no_image grid-item">
                                         <div class="card-body">
                                             <div class="card-title card-title-small">
-                                                <router-link @click="scrollToTop()" :to="{name: 'post'}"> How Did van
+                                                <router-link @click.prevent="$scrollToTop" :to="{name: 'post'}"> How Did
+                                                    van
                                                     Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in
                                                     Physics?</router-link>
                                             </div>
@@ -870,7 +869,8 @@
                                             style="background-image:url(../assets/images/post_12.jpg)"></div>
                                         <div class="card-body">
                                             <div class="card-title card-title-small">
-                                                <router-link @click="scrollToTop()" :to="{name: 'post'}"> How Did van
+                                                <router-link @click.prevent="$scrollToTop" :to="{name: 'post'}"> How Did
+                                                    van
                                                     Gogh’s Turbulent Mind Depict One of the Most</router-link>
                                             </div>
                                         </div>
@@ -882,7 +882,8 @@
                                             style="background-image:url(../assets/images/post_6.jpg)"></div>
                                         <div class="card-body">
                                             <div class="card-title card-title-small">
-                                                <router-link @click="scrollToTop()" :to="{name: 'post'}"> How Did van
+                                                <router-link @click.prevent="$scrollToTop" :to="{name: 'post'}"> How Did
+                                                    van
                                                     Gogh’s Turbulent Mind Depict One of the Most</router-link>
                                             </div>
                                         </div>
@@ -908,6 +909,7 @@
 </template>
 <script lang="ts">
 import '../../public/assets/plugins/jquery.mb.YTPlayer-3.1.12/jquery.mb.YTPlayer'
+import '../../public/assets/plugins/masonry/images_loaded'
 import '../../public/assets/js/custom'
 
 import TheSidebar from "@/components/TheSidebar.vue"
@@ -917,11 +919,6 @@ export default {
     components: {
         TheSidebar
     },
-    methods: {
-        scrollToTop() {
-            window.scrollTo({ top: 0, behavior: 'smooth' });
-        }
-    }
 }
 </script>
 <style scoped>

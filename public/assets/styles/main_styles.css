@@ -1500,7 +1500,7 @@ section
 {
 	display: block;
 }
-.side_post:not(:last-child)
+.side_post
 {
 	margin-bottom: 15px;
 }

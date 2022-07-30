@@ -3,10 +3,10 @@
 
         <!-- Header -->
 
-        <TheHeader />
+        <!-- <TheHeader /> -->
         <!-- Menu -->
 
-        <TheMenu />
+        <!-- <TheMenu /> -->
         <!-- Page Content -->
 
         <router-view v-slot="{ Component }">
@@ -18,7 +18,7 @@
         
         <!-- Footer -->
 
-        <TheFooter />
+        <!-- <TheFooter /> -->
 
     </div>
 </template>
@@ -30,11 +30,11 @@ import TheMenu from "@/components/TheMenu.vue"
 
 export default {
     name: 'MasterPage',
-    components: {
-        TheHeader,
-        TheFooter,
-        TheMenu
-    }
+    // components: {
+    //     TheHeader,
+    //     TheFooter,
+    //     TheMenu
+    // }
 }
 </script>
 <style>

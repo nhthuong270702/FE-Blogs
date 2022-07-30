@@ -3,9 +3,9 @@ import state from "./state";
 import getters from "./getters";
 import actions from "./actions";
 import mutations from "./mutations";
-
 import userModule from "./modules/users/index";
-import accountAdmin from "./modules/accounts/account-admin";
+import postModule from "./modules/posts/index";
+import authModule from "./modules/auth/index";
 
 export const store = createStore({
   state,
@@ -14,6 +14,7 @@ export const store = createStore({
   actions,
   modules: {
     userModule: userModule,
-    account1: accountAdmin,
+    postModule: postModule,
+    authModule: authModule,
   },
 });

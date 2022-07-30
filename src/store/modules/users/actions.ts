@@ -1,5 +1,6 @@
 import router from "@/router";
 import apiService from "../../../services/api.service";
+import authApiService from "../../../services/auth.api.service";
 
 // thuc hien goi api, khong lam thay doi state => commit sang mutations de thay doi state
 export default {
